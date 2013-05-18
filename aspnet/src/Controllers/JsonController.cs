@@ -2,7 +2,7 @@
 
 namespace Benchmarks.AspNet.Controllers
 {
-    public class JsonController : Controller
+    public class JsonController : AsyncController
     {
         public ActionResult Index()
         {
